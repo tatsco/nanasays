@@ -1,5 +1,5 @@
 import React from 'react';
-import nanasphoto from './nanasphoto1.png';
+import nanasphoto from './images/nanasphoto1.png';
 import './App.css';
 import responses from './voiceCollection.js';
 
