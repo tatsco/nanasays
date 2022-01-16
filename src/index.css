@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 5%;
-  background-image: url('/handwriting-placeholder.jpeg');
+  background-image: url('https://nanasays.s3.amazonaws.com/handwriting-background.jpeg');
   background-color: transparent;
   background-repeat: no-repeat;
   background-attachment: fixed;
