@@ -9,7 +9,6 @@ function App() {
     let responseNumber;
     const responsesLength = Object.values(responses).length;
     responseNumber = Math.ceil(Math.random() * responsesLength);
-    console.log("responsesNumber", responseNumber, "responseLength", responsesLength);
     return responseNumber;
   };
 
@@ -18,7 +17,6 @@ function App() {
     audio.play()
   };
   return (
-
       <div className="App">
         <div className="card">
           <img src={nanasphoto} alt='nana'/>
@@ -28,9 +26,7 @@ function App() {
           <p><button onClick={handleClick}>Ask Nana!*</button></p>
           <h5 className="disclaimer">*DISCLAIMER: By participating in the 'Ask Nana' experience you are opting to subject yourself to blunt and unfiltered honesty. All responses expressed on this website are soley those of Nana and she does not care about your feelings. Ask at your own risk.</h5>
         </div>
-
     </div>
-
   );
 }
 
